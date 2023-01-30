@@ -1,0 +1,35 @@
+body {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZ05-Ae8Kk00xdjqvGysBDxwZPFxg2L6UZXrrTrMvKtgJpG9tUqBRUcO_vJVyzEErqBY&usqp=CAU") fixed;
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    box-sizing: 0, 0, 0, 2px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#restartBtn {
+    height: 30px;
+    width: 237px;
+    border: red solid;
+    font-weight: bold;
+    background: url("https://t3.ftcdn.net/jpg/01/36/96/72/360_F_136967274_hMSsz3qHm2NW2t8gMCyLPp9iJfbhLb0s.jpg");
+}
+
+#gameContainer {
+    text-align: center;
+    padding: 10px;
+
+}
+
+#cellContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 237px;
+    margin: auto;
+    border: 2px solid;
+}
